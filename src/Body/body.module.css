@@ -1,0 +1,401 @@
+.main {
+  display: flex;
+}
+.side {
+  display: flex;
+  border: 1px solid;
+  height: 1150px;
+  background-color: rgb(13, 13, 228);
+  border-bottom-right-radius: 50px;
+  border: hidden;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.mainbody {
+  margin-left: 65px;
+  margin-top: 70px;
+}
+.body {
+  border: 1px solid;
+  width: 1450px;
+  height: 80px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: hidden;
+  margin-top: 10px;
+}
+.input {
+  width: 1360px;
+  height: 40px;
+  border: 1px solid rgba(160, 157, 157, 0.925);
+  border-radius: 10px;
+  padding-left: 10px;
+  border-color: rgb(28, 28, 109);
+  font-size: 15px;
+  background-color: rgb(250, 250, 250);
+}
+.icon {
+  height: 20px;
+  width: 20px;
+}
+.img {
+  border: 1px solid;
+  width: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  background-color: rgba(150, 125, 190, 0.541);
+  border: hidden;
+  border-radius: 10px;
+}
+.filter {
+  border: 1px solid;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: hidden;
+  margin-top: 2px;
+}
+.filtername {
+  display: flex;
+}
+.sort {
+  border: 1px solid;
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(150, 125, 190, 0.541);
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 500;
+  border: hidden;
+  color: rgb(20, 20, 119);
+  font-style: Arial;
+}
+.design {
+  border: 1px solid;
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(150, 125, 190, 0.541);
+  border-radius: 5px;
+  font-weight: 500;
+  margin-left: 35px;
+  color: rgb(20, 20, 119);
+  padding-left: 10px;
+  padding-right: 10px;
+  border: hidden;
+}
+.add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: rgb(20, 20, 119);
+}
+.addbox {
+  border: 1px solid;
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(233, 229, 240);
+  border: hidden;
+}
+.border {
+  border: 1px solid;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: dashed;
+  border-color: blue;
+}
+.details {
+  border: 1px solid;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border-color: rgb(119, 119, 165);
+}
+.fullname {
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
+.fulldesig {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  margin-left: 50px;
+  font-weight: 450;
+  color: rgb(20, 20, 119);
+  font-size: 15px;
+}
+.designation {
+  margin-left: 128px;
+  font-weight: 450;
+  color: rgb(20, 20, 119);
+  font-size: 15px;
+}
+.editprofile {
+  display: flex;
+  justify-content: space-between;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid;
+  width: 120px;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 100px;
+  border: hidden;
+  color: rgb(20, 20, 119);
+}
+.edit {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid;
+  width: 60px;
+  height: 25px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 42px;
+  border: hidden;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: rgb(20, 20, 119);
+}
+.icon2 {
+  height: 15px;
+  width: 15px;
+}
+.lastbox {
+  border: 1px solid;
+  width: 100%;
+  height: 650px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border-color: rgb(6, 66, 177);
+}
+.lastlastbox {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.profilepicture {
+  border: 1px solid;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  color: rgb(29, 106, 206);
+  border-style: dashed;
+}
+.lastfull {
+  display: flex;
+}
+.lastfullname {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.full {
+  margin-left: 35px;
+  font-weight: 400;
+  color: rgb(29, 106, 206);
+}
+.lastdesign {
+  margin-left: 125px;
+  color: rgb(29, 106, 206);
+  font-weight: 400;
+}
+.lastprofile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lastviewprofile {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid;
+  width: 120px;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 100px;
+  border: hidden;
+  color: rgb(20, 20, 119);
+}
+.lastedit {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid;
+  width: 60px;
+  height: 25px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+  border: hidden;
+  background-color: rgba(150, 125, 190, 0.541);
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  color: rgb(20, 20, 119);
+}
+.person {
+  padding-left: 110px;
+  color: rgb(84, 146, 228);
+  font-size: 20px;
+  padding-top: 20px;
+}
+.studentdetails {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.personalcircle {
+  border: 1px solid;
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  background-color: rgb(233, 229, 240);
+  border: hidden;
+}
+.deta {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.details_border {
+  border: 2px solid;
+  width: 350px;
+  height: 50px;
+  margin-top: 15px;
+  margin-right: 300px;
+  color: rgb(87, 147, 224);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  border-color: rgb(87, 147, 224);
+  border-radius: 10px;
+
+  font-size: 20px;
+  font-weight: 500;
+}
+.location {
+  border: 2px solid;
+  width: 350px;
+  height: 50px;
+  margin-top: 15px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  border-color: rgb(87, 147, 224);
+  border-radius: 10px;
+  color: rgb(87, 147, 224);
+  font-size: 20px;
+  font-weight: 500;
+}
+.bank {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  flex-direction: row;
+  color: rgb(87, 147, 224);
+}
+.bank_details {
+  border: 2px solid;
+  width: 350px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 85px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  border-color: rgb(87, 147, 224);
+  border-radius: 10px;
+  color: rgb(87, 147, 224);
+  font-size: 20px;
+  font-weight: 500;
+}
+.code {
+  border: 2px solid;
+  width: 350px;
+  height: 50px;
+  margin-top: 15px;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  border-color: rgb(87, 147, 224);
+  border-radius: 10px;
+  color: rgb(87, 147, 224);
+  font-size: 20px;
+  font-weight: 500;
+}
+.code_details {
+  margin-top: 68px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.save {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(31, 145, 190);
+  color: white;
+  border-radius: 5px;
+  border: hidden;
+}
+.reset {
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border-color: rgb(93, 172, 204);
+  color: rgb(93, 172, 204);
+  border: 1px solid;
+  background-color: rgb(250, 250, 250);
+}
