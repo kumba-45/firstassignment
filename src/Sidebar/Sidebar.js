@@ -31,47 +31,47 @@ const Sidebar = () => {
           <ul>
             <li>
               <img src={dash} alt="dash" />
-              <a href="">Dash Board</a>
+              <a >Dash Board</a>
             </li>
             <li>
               <img src={fee} alt="dash" />
-              <a href="">Fee details</a>
+              <a >Fee details</a>
             </li>
 
             <li>
               <img src={staff} alt="dash" />
-              <a href="" onClick={dropdownHandler}>
+              <a  onClick={dropdownHandler}>
                 Staff Details
               </a>
               {sidebar ? (
                 <ul className={classes.dropdown}>
                   <li>
-                    <a href="">View details</a>
+                    <a >View details</a>
                   </li>
                   <li>
-                    <a href="">Pay History</a>
+                    <a >Pay History</a>
                   </li>
                   <li>
-                    <a href="">Add Staff</a>
+                    <a >Add Staff</a>
                   </li>
                 </ul>
               ) : null}
             </li>
             <li>
               <img src={student} alt="dash" />
-              <a href="">Student Details</a>
+              <a >Student Details</a>
             </li>
             <li>
               <img src={pay} alt="dash" />
-              <a href="">Pay salary</a>
+              <a >Pay salary</a>
             </li>
             <li>
               <img src={noti} alt="dash" />
-              <a href="">Notices</a>
+              <a >Notices</a>
             </li>
             <li>
               <img src={profile} alt="dash" />
-              <a href="">School Profile</a>
+              <a >School Profile</a>
             </li>
           </ul>
         </nav>
