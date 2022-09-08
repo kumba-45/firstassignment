@@ -31,47 +31,47 @@ const Sidebar = () => {
           <ul>
             <li>
               <img src={dash} alt="dash" />
-              <a >Dash Board</a>
+              <a href="https://www.google.co.in/" target="blank" >Dash Board</a>
             </li>
             <li>
               <img src={fee} alt="dash" />
-              <a >Fee details</a>
+              <a href="https://www.google.co.in/" target="blank" >Fee details</a>
             </li>
 
             <li>
               <img src={staff} alt="dash" />
-              <a  onClick={dropdownHandler}>
+              <a href="https://www.google.co.in/" target="blank" onClick={dropdownHandler}>
                 Staff Details
               </a>
               {sidebar ? (
                 <ul className={classes.dropdown}>
                   <li>
-                    <a >View details</a>
+                    <a href="https://www.google.co.in/" target="blank">View details</a>
                   </li>
                   <li>
-                    <a >Pay History</a>
+                    <a href="https://www.google.co.in/"  target="blank">Pay History</a>
                   </li>
                   <li>
-                    <a >Add Staff</a>
+                    <a href="https://www.google.co.in/" target="blank" >Add Staff</a>
                   </li>
                 </ul>
               ) : null}
             </li>
             <li>
               <img src={student} alt="dash" />
-              <a >Student Details</a>
+              <a href="https://www.google.co.in/" target="blank">Student Details</a>
             </li>
             <li>
               <img src={pay} alt="dash" />
-              <a >Pay salary</a>
+              <a href="https://www.google.co.in/" target="blank" >Pay salary</a>
             </li>
             <li>
               <img src={noti} alt="dash" />
-              <a >Notices</a>
+              <a href="https://www.google.co.in/" target="blank">Notices</a>
             </li>
             <li>
               <img src={profile} alt="dash" />
-              <a >School Profile</a>
+              <a href="https://www.google.co.in/" target="blank" >School Profile</a>
             </li>
           </ul>
         </nav>
